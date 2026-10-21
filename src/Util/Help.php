@@ -429,7 +429,7 @@ final class Help
         $options['Rule Selection Options'] = [
             'standard'   => [
                 'argument'    => '--standard=<standard>',
-                'description' => 'The name of, or the path to, the coding standard to use. Can be a comma-separated list specifying multiple standards. If no standard is specified, PHP_CodeSniffer will look for a [.]phpcs.xml[.dist] custom ruleset file in the current directory and those above it.',
+                'description' => 'The name of, or the path to, the coding standard to use. Can be a comma-separated list specifying multiple standards. If no standard is specified, PHP_CodeSniffer will look for a [.]phpcs.xml, [.]phpcs.dist.xml or [.]phpcs.xml.dist custom ruleset file in the current directory and those above it.',
             ],
             'sniffs'     => [
                 'argument'    => '--sniffs=<sniffs>',
