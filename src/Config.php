@@ -143,6 +143,8 @@ class Config
     private const CONFIG_FILENAMES = [
         '.phpcs.xml',
         'phpcs.xml',
+        '.phpcs.dist.xml',
+        'phpcs.dist.xml',
         '.phpcs.xml.dist',
         'phpcs.xml.dist',
     ];
